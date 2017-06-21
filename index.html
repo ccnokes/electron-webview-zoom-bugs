@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Hello World!</title>
+  <style>
+    webview {
+      display:inline-flex;
+      width: 100vw;
+      height: 100vh;
+      border: 4px solid blue;
+    }
+    webview.hide {
+      flex: 0 1;
+      width: 0px;
+      height: 0px;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  require('./renderer');
+</script>
+  
+</body>
+</html>
